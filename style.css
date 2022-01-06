@@ -12,9 +12,9 @@ section{
 .first-heading h1{
     font-family: 'Luxurious Roman', cursive;
     font-size: 50px;
-    border-left: 5px solid;
-    border-image: linear-gradient(brown, tomato);
-    border-image-slice: 1;
+    border-left: 5px solid orangered;
+    padding-left: 5px;
+    
 }
 .highlight-color{
     color: rgb(235, 45, 45);
@@ -111,13 +111,43 @@ h3{
     font-family: cursive;
     font-size: 35px;
 }
-.about-bg{
-    
-    background-image: url(images/shapes/shape-1.png);
-    background-repeat: no-repeat;
-    background-position: left;
-}
 
+.blood-doner{
+    width: 70%;
+    padding-left: 4%;
+    margin-bottom: 100px;
+}
+.blood-don{
+    font-size: 30px;
+    color: orangered;
+    margin-bottom: 20px;
+}
+.last-paragraph{
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+h4{
+    font-size: 22px;
+    color: rgb(77, 77, 189);
+    margin-bottom: 18px;
+}
+form{
+    font-weight: bold;
+    font-size: 20px;
+}
+.subscribe-button{
+    background-color: rgb(77, 77, 189);
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.sub-link{
+    text-decoration: none;
+    color: white;
+}
 
 
 
